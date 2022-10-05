@@ -1,0 +1,9 @@
+@import 'https://fonts.googleapis.com/css2?family=Ranchers&display=swap';
+
+#cor-diferente {
+    color:aquamarine
+}
+
+h1 {
+    font-family: 'Ranchers', cursive
+}
