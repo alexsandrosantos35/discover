@@ -1,0 +1,50 @@
+<!--
+    <input type="email">
+
+    - Espera que o usuário digite um email
+    - Irá validar se o valor digitado for um email
+    
+    #Atributos
+
+
+    - placeholder
+    - readonly / disabled
+    - value
+
+    - required
+
+    - multiple
+        * O campo irá receber um ou mais endereços de email, separados por vírgulas
+
+    - minlength / maxlength
+        * O mínimo ou máximo valor que o campo irá conter
+
+    - size
+        * Valor indicando quantos caracteres esse campo deverá conter, modificando o tamanho do campo para o usuário
+
+    - patten
+        * Uso de expressão regular para validar o campo
+        * Exempno o usuário só poderá colocar email do domínio rocketseat.com.br
+            * patten=".+rocketseat\.com\.br"
+
+    - list
+        * O id de uma tag <datalist> que está no mesmo documento
+        * <datalist> irá conter umalista de valores pre definidos a fim de sugerir ao usuário quais valores estão disponíveis
+            * Os valores de <datalist> que não forem compatíveis com o campo não serão apresentados como sugestão 
+-->
+
+<form action="">
+
+    <datalist id="emailslist">
+        <option >myk@recketseat.com.br</option>
+        <option >myalexsandro@recketseat.com.br</option>
+    </datalist>
+
+<input type="email" name="" id=""
+list="emailslist"
+pattern=".+rocketseat\.com\.br"
+title="utilize emails apenas da rocketseat.com.br"
+>
+<button type="submit">Enviar</button>
+
+</form>
