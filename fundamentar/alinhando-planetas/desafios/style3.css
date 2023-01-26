@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    line-height: 0;
+    align-items: center;
+    gap: .5em
+}
+
+img {
+    gap: 4em
+}

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background: lightgray;
+    align-items: center;
+}
+
+.container header{
+    display: flex;
+    
+}
+
+.container ul {
+    display: flex;
+    align-items: center;
+}
+
+.container ul li {
+    list-style-type: none;
+    margin-right: 0.8em
+}
+
+.container nav {
+    display: flex;
+
+}
+
+.container nav button {
+    background: black;
+    color: white;
+    padding: 0.8em;
+    margin-right: 0.8em;
+}
+

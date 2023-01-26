@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    border: 1px dashed red;
+    flex-wrap: wrap;
+    gap: 0.8em;
+    justify-content: center;
+}
+
+.container section {
+    height: 142px;
+    border: 1px solid;
+    width: 142px;
+    
+}
